@@ -15,7 +15,7 @@ contract DynamicSvgNft is ERC721 {
 
     uint256 public s_tokenCounter; // NFTid
 
-    constructor() ERC721("Dynamic SVG NFT", "DSN") {
+    constructor(string memory lowSvg, string memory highSvg) ERC721("Dynamic SVG NFT", "DSN") {
 
     }
 
@@ -36,6 +36,7 @@ contract DynamicSvgNft is ERC721 {
     * are overriding our own function (create a different one)
     * 'virtual override': would mean that the function is overridable
     * - Encode JSON with Base64.sol
+    * - 'pure' function because does not read neither write any state from the blockchain
     */
     function tokenURI(uint256 tokenId) public view override returns(string memory) {
 

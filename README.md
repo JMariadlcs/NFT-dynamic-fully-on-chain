@@ -2,6 +2,13 @@
 
 This is a NFT with based64 encoded SVG Images stored 100% On-Chain creation from Chainlink Hackathon Spring 2022
 
+<br/>
+<p align="center">
+<img src="./images/dynamicNft/happy.svg" width="225" alt="NFT Happy">
+<img src="./images/dynamicNft/frown.svg" width="225" alt="NFT Frown">
+</p>
+<br/>
+
 ## Objetives
 1. Mint an NFT based on the price of ETH
 - If ETHprice  > someNumer: NFT1
