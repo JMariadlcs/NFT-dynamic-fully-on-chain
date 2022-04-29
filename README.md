@@ -4,8 +4,8 @@ This is a NFT with based64 encoded SVG Images stored 100% On-Chain creation from
 
 <br/>
 <p align="center">
-<img src="./images/dynamicNft/happy.svg" width="225" alt="NFT Happy">
-<img src="./images/dynamicNft/frown.svg" width="225" alt="NFT Frown">
+<img src="./images/happy.svg" width="225" alt="NFT Happy">
+<img src="./images/frown.svg" width="225" alt="NFT Frown">
 </p>
 <br/>
 
