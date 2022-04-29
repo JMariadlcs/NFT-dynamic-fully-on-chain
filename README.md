@@ -1,6 +1,6 @@
 # NFT-fully-on-chain
 
-This is a NFT with SVG Images stored 100% On-Chain creation from Chainlink Hackathon Spring 2022
+This is a NFT with based64 encoded SVG Images stored 100% On-Chain creation from Chainlink Hackathon Spring 2022
 
 ## Objetives
 1. Mint an NFT based on the price of ETH
@@ -35,6 +35,9 @@ yarn add --dev @nomiclabs/hardhat-ethers@npm:hardhat-deploy-ethers ethers @nomic
 npm install --save-dev @nomiclabs/hardhat-ethers@npm:hardhat-deploy-ethers ethers
 ```
 ```bash
+npm install base64-sol
+```
+```bash
 npm install dotenv --save
 ```
 
@@ -48,5 +51,6 @@ npx hardhat deploy --network rinkeby
 - [hardhat-nft-fcc](https://github.com/PatrickAlphaC/hardhat-nft-fcc): Patrick's repo for NFTs
 - [hardhat-starter-kit](https://github.com/smartcontractkit/hardhat-starter-kit)
 - [OpenZeppeling github](https://github.com/OpenZeppelin/openzeppelin-contracts): OpenZeppeling github
-- [SVG documenation](https://www.w3schools.com/graphics/svg_intro.asp): SVG documentation and examples
+- [SVG documentation](https://www.w3schools.com/graphics/svg_intro.asp): SVG documentation and examples
 - [SVG real time encoding](https://www.w3schools.com/graphics/tryit.asp?filename=trysvg_myfirst): encode SVG and see result in real time
+- [Base64.sol SmartContract](https://github.com/Brechtpd/base64/blob/main/base64.sol): used to base64 encode SVGs
