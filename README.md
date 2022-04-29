@@ -1,1 +1,42 @@
-# NFT-dynamic-fully-on-chain
+# NFT-fully-on-chain
+
+## Objetives
+
+## Requirements for creating similar projects from scratch
+- Start hardhat project:
+```bash
+npm init -y
+npm install --save-dev hardhat
+npx hardhat
+```
+- Add .gitignore file containing:
+```bash
+node_modules
+.env
+coverage
+coverage.json
+typechain
+
+#Hardhat files
+cache
+artifacts
+```
+
+- Install dependencies:
+```bash
+yarn add --dev @nomiclabs/hardhat-ethers@npm:hardhat-deploy-ethers ethers @nomiclabs/hardhat-etherscan @nomiclabs/hardhat-waffle chai ethereum-waffle hardhat hardhat-contract-sizer hardhat-deploy hardhat-gas-reporter prettier prettier-plugin-solidity solhint solidity-coverage dotenv
+```
+```bash
+npm install --save-dev @nomiclabs/hardhat-ethers@npm:hardhat-deploy-ethers ethers
+```
+```bash
+npm install dotenv --save
+```
+
+## How to deploy
+- Rinkeby network:
+```bash
+npx hardhat deploy --network rinkeby 
+```
+
+## Resources
