@@ -1,6 +1,9 @@
 # NFT-fully-on-chain
 
 ## Objetives
+1. Mint an NFT based on the price of ETH
+- If ETHprice  > someNumer: NFT1
+- if ETHprice < someNumber: NFT2
 
 ## Requirements for creating similar projects from scratch
 - Start hardhat project:
