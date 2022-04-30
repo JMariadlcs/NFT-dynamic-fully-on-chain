@@ -66,3 +66,4 @@ npx hardhat deploy --network rinkeby
 - [SVG real time encoding](https://www.w3schools.com/graphics/tryit.asp?filename=trysvg_myfirst): encode SVG and see result in real time.
 - [Base64.sol SmartContract](https://github.com/Brechtpd/base64/blob/main/base64.sol): used to base64 encode SVGs
 - [Chainlink Data Feeds](https://docs.chain.link/docs/get-the-latest-price/): Chainlink Data Feeds documentation for getting ETH price.
+- [Ethereum Price Data Feed](https://docs.chain.link/docs/ethereum-addresses/): Needed when deploy
