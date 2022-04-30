@@ -16,10 +16,10 @@ module.exports = async function(hre) {
         ethUsdPriceFeedAddress = "0x8A753747A1Fa494EC906cE90E9f37563A8AF630e"
     }
     const threshold = ethers.utils.parseEther("2000") // threshold to select from images
-    const lowSvg = await fs.readFileSync("./images/frown.svg") // read svg files
-    const highSvg = await fs.readFileSync("./images/happy.svg")
+    const lowSvg = await fs.readFileSync("./images/frown.svg", { encoding: "utf-8 "}) // read svg files
+    const highSvg = await fs.readFileSync("./images/happy.svg", { encoding: "utf-8 "})
     args = [ethUsdPriceFeedAddress, lowSvg, highSvg, threshold] // args
-    const dynamicSvgNft = await deploy("DynamicNft", { // deploy
+    const dynamicSvgNft = await deploy("DynamicSvgNft", { // deploy
         from: deployer,
         args: args,
         log: true,
