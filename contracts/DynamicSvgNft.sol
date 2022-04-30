@@ -56,7 +56,7 @@ contract DynamicSvgNft is ERC721 {
     * - Encode JSON with Base64.sol
     * - 'pure' function because does not read neither write any state from the blockchain
     */
-    function tokenURI(uint256 tokenId) public view override returns(string memory) {
+    function tokenURI(uint256 /*tokenId*/) public view override returns(string memory) {
 
         // part used to select image depeding on ETH price
         (, int256 price, ,,) = i_priceFeed.latestRoundData(); // see Chainlink Data Feed documentation
@@ -76,8 +76,5 @@ contract DynamicSvgNft is ERC721 {
         
         return (string(abi.encodePacked(_baseURI(), encodedMetada))); // return both strings concatenated (baseURI + encodedMEtada) = fullJSON encoded except image 
     }
-
-
-
 }
 
