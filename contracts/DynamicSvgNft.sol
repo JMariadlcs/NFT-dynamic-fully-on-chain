@@ -6,12 +6,12 @@ import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
 import "@chainlink/contracts/src/v0.8/interfaces/AggregatorV3Interface.sol"; 
 import "base64-sol/base64.sol";
 
-    /**
-    * @dev
-    * 1. Mint an NFT based on the price of ETH
-    * - If ETHprice  > someNumer: NFT1
-    * - if ETHprice < someNumber: NFT2
-    */
+/**
+* @dev
+* 1. Mint an NFT based on the price of ETH
+* - If ETHprice  > someNumer: NFT1
+* - if ETHprice < someNumber: NFT2
+*/
 contract DynamicSvgNft is ERC721 {
 
     uint256 public s_tokenCounter; // NFTid
