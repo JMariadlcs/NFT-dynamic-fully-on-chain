@@ -35,6 +35,7 @@
     "solidity-coverage": "^0.7.21"
   },
   "dependencies": {
+    "@chainlink/contracts": "^0.4.0",
     "base64-sol": "^1.1.0"
   }
 }
