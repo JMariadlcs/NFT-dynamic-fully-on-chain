@@ -16,7 +16,8 @@ module.exports = async function(hre) {
     } else { //rinkeby
         ethUsdPriceFeedAddress = "0x8A753747A1Fa494EC906cE90E9f37563A8AF630e"
     }
-    const threshold = ethers.utils.parseEther("2000") // threshold to select from images
+    //const threshold = ethers.utils.parseEther("2000") // threshold to select from images
+    const threshold = "200000000000" // need 8 decimals
     const lowSvg = await fs.readFileSync("./images/frown.svg", { encoding: "utf8"}) // read svg files
     const highSvg = await fs.readFileSync("./images/happy.svg", { encoding: "utf8"})
     args = [ethUsdPriceFeedAddress, lowSvg, highSvg, threshold] // args
