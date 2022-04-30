@@ -1,4 +1,5 @@
 require("@nomiclabs/hardhat-waffle");
+require("hardhat-deploy");
 require('dotenv').config();
 
 /**
@@ -15,7 +16,6 @@ module.exports = {
         },
     ],
   },
-  defaultNetwork: "hardhat",
   networks: {
     hardhat: {
       chainId: 31337
