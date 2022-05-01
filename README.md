@@ -41,16 +41,11 @@ yarn add --dev @nomiclabs/hardhat-ethers@npm:hardhat-deploy-ethers ethers @nomic
 or
 ```bash
 npm install --save-dev @nomiclabs/hardhat-ethers@npm:hardhat-deploy-ethers ethers
-```
-```bash
 npm install @nomiclabs/hardhat-ethers
-``` 
-```bash
 npm install @chainlink/contracts
-```
-```bash
 npm install dotenv --save
 ``` 
+
 and
 ```bash
 npm install base64-sol
@@ -60,6 +55,10 @@ npm install base64-sol
 - Rinkeby network:
 ```bash
 npx hardhat deploy --network rinkeby 
+```
+or
+```bash
+yarn hardhat deploy --network rinkeby 
 ```
 
 ## Resources
