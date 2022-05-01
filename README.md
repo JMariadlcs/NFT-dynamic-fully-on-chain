@@ -1,6 +1,9 @@
 # NFT-fully-on-chain
 
-This is a NFT with based64 encoded SVG Images stored 100% On-Chain creation from Chainlink Hackathon Spring 2022
+This is a NFT with based64 encoded SVG Images stored 100% On-Chain creation from Chainlink Hackathon Spring 2022.
+
+
+The workshop followed to complete this repo is [this one](https://www.youtube.com/watch?v=hYCeB4mkkPk&t=5234s).
 
 <br/>
 <p align="center">
