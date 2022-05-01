@@ -42,7 +42,7 @@ yarn add --dev @nomiclabs/hardhat-ethers@npm:hardhat-deploy-ethers ethers @nomic
 npm install --save-dev @nomiclabs/hardhat-ethers@npm:hardhat-deploy-ethers ethers
 ```
 ```bash
-@nomiclabs/hardhat-ethers
+npm install @nomiclabs/hardhat-ethers
 ``` 
 ```bash
 npm install base64-sol
